@@ -73,3 +73,26 @@ img {
     width: 100%;
 }
 
+
+/* -----landing-Page-------- */
+
+.logo-wrapper{
+    width: 100%;
+    margin: 30vh auto;
+    border: #EA3800 solid 1px;
+    text-align: center;
+}
+
+.slogan{
+    font-family: "futura-pt-condensed", sans-serif;
+    font-weight: 700;
+    border: #EA3800 solid 1px;
+}
+
+.button{
+    display: block;
+    background-color: #ffffff;
+    padding: 1.1rem;
+
+}
+
