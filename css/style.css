@@ -1,22 +1,49 @@
-** {
-    box-sizing: border-box;
-    
+* {
+    box-sizing: border-box; 
+    font-family: "futura-pt-bold", sans-serif;
 }
 
-/* Colors */
+/* Root Brand Colors */
 :root {
     --background: #000000;
     --secondary: #0B0B0B;
     --tertiary: #141414;
     --orange: #EA3800;
     --green: #4FDA41;
+    --white: #ffffff;
 
 }
+
+/* Structures */
 
 body {
     margin: 0;
     background-color: var(--background);
-    color: white;
-    font-family: "futura-pt-bold", sans-serif;
+    color: var(--white)
+    
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    height: 3rem;
+
+    background-color: var(--secondary);
+}
+
+main {
+
+    /* TEMP HEIGHT: */
+    height: 100vh; 
+}
+
+footer {
+    background-color: var(--secondary);
 }
 
