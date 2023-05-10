@@ -1,0 +1,22 @@
+** {
+    box-sizing: border-box;
+    
+}
+
+/* Colors */
+:root {
+    --background: #000000;
+    --secondary: #0B0B0B;
+    --tertiary: #141414;
+    --orange: #EA3800;
+    --green: #4FDA41;
+
+}
+
+body {
+    margin: 0;
+    background-color: var(--background);
+    color: white;
+    font-family: "futura-pt-bold", sans-serif;
+}
+
