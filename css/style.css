@@ -12,6 +12,8 @@
     --green: #4FDA41;
     --white: #ffffff;
 
+    --padding: 3.5rem;
+
 }
 
 /* Structures */
@@ -28,14 +30,33 @@ header {
     top: 0;
     left: 0;
     z-index: 999;
+    padding-inline: 1.5rem;
 
     display: flex;
-    justify-content: space-between;
     align-items: flex-end;
     width: 100%;
     height: 5rem;
 
     background-color: var(--secondary);
+}
+.navBar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search {
+    background-color: var(--tertiary);
+}
+.navTitle {
+    display: flex;
+}
+.hamburger{
+
+}
+.navItems{
+    display: none;
 }
 
 main {
