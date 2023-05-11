@@ -76,23 +76,58 @@ img {
 
 /* -----landing-Page-------- */
 
+
 .logo-wrapper{
     width: 100%;
-    margin: 30vh auto;
-    border: #EA3800 solid 1px;
     text-align: center;
+    background-image: url(../assets/images/grunge.jpg);
+    background-blend-mode:difference;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 20rem;
+    height: 100%;
+}
+
+.logo{
+    width:100%;
+    height: 30rem;
+    border: #EA3800 solid 1px;
+    
+
+}
+
+.slogan-button-wrap{
+    margin: auto;
+    width:20rem;
+    padding-top: 10rem;
+    
 }
 
 .slogan{
     font-family: "futura-pt-condensed", sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 4px;
     font-weight: 700;
-    border: #EA3800 solid 1px;
+    text-align: left;
+    margin: 0;
 }
 
 .button{
+    margin-top: 2rem;
+    text-decoration: none;
     display: block;
     background-color: #ffffff;
+    color: #000000;
+    font-size: 1.2rem;
+    font-weight: 400;
     padding: 1.1rem;
-
+    width: 100%;
+ 
 }
+.button:hover{
+background-color:#EA3800;
+ 
+}
+
 
