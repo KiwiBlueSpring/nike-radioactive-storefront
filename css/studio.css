@@ -1,4 +1,5 @@
 .customisationRow{
+    margin: 5rem auto;
     display: flex;
     /* justify-content: center; */
     padding-inline: 2rem;
@@ -19,6 +20,7 @@
 }
 .customisationPlatter h3 {
     white-space: nowrap;
+    padding: 1rem;
 }
 .optionRow {
     /* hidden by default */
@@ -64,4 +66,64 @@
 .white {
     background-color: var(--white);
     outline: var(--whiteSecondary) 3px solid;
+}
+
+/* --------Two-Column-------- */
+
+
+.tee-wrapper{ 
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    /* border: rgb(217, 120, 52) 1px solid; */
+    padding: 1rem 4rem;
+}
+
+
+
+.two-column{
+    width: 100%;
+    gap: 2rem;
+    display: flex;
+    /* padding-top: 3rem; */
+
+}
+.two-column h2{
+   font-size: 1.5rem;
+   
+}
+.two-column p{
+   font-size: 1rem;
+   opacity: 50%;
+   
+}
+.price h2{
+   font-size: 4rem;
+   
+}
+.two-column h2{
+   font-size: 2rem;
+  
+
+   
+}
+
+.atomic-wrapper{
+    width: 70%;
+    text-align: left;
+    
+}
+
+.button-wrap{
+    margin: 5rem auto;
+    width: 100%;
+  
+}
+.button-wrap .button{
+  background-color:#EA3800;
+  
+}
+.button-wrap .button:hover{
+  background-color:#ffffff;
+  
 }
