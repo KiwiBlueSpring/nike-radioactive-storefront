@@ -1,6 +1,15 @@
 * {
     box-sizing: border-box; 
+}
+h1, h2, h3, h4 {
     font-family: "futura-pt-bold", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+p {
+    font-family: "futura-pt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* Root Brand Colors */
@@ -20,8 +29,10 @@
 
 body {
     margin: 0;
+    margin: 0 auto;
     background-color: var(--background);
-    color: var(--white)
+    color: var(--white);
+    overflow-x: hidden
     
 }
 
@@ -62,16 +73,31 @@ header {
 main {
 
     /* TEMP HEIGHT: */
-    height: 100vh; 
-}
-
-footer {
-    background-color: var(--secondary);
+    /* height: 100vh;  */
 }
 
 img {
     width: 100%;
 }
+.icon {
+    width: 30px;
+    height: 30px;
+}
+.categorySection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 2rem;
+    height: 10rem;
+}
+
+
+
+footer {
+    background-color: var(--secondary);
+}
+
+
 
 
 /* -----landing-Page-------- */
@@ -90,9 +116,11 @@ img {
 }
 
 .button{
-    display: block;
+    display: flex;
+    justify-content: center;
     background-color: #ffffff;
-    padding: 1.1rem;
+    color: black;
+    padding: 0.5rem;
 
 }
 
