@@ -28,7 +28,7 @@ function nextSlide() {
 // Automatic Slides
 
 let currentSlide = 0
-// const numSlides = document.querySelector('.slidesWrapper').childElementCount
+// const numSlides = document.querySelector('#heroSlides').childElementCount
 let numSlides = 2
 
 
