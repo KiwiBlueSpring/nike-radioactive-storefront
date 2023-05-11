@@ -29,7 +29,7 @@ function nextSlide() {
 
 let currentSlide = 0
 // const numSlides = document.querySelector('#heroSlides').childElementCount
-let numSlides = 2
+let numSlides = 4
 
 
 setInterval(()=>{
