@@ -51,3 +51,20 @@ font-style: normal;
 font-family: "futura-pt-condensed", sans-serif;
 font-weight: 700;
 font-style: italic;
+
+
+All About GIT:
+
+Push: This command sends your committed changes to a remote repository like GitHub. For example, if you've made changes to your code and committed those changes (which means you've saved them in your local Git history), you use push to upload those changes to GitHub so that others can see them or so you can access them from other computers.
+
+Pull: This command updates your local version of a codebase with the latest changes from the remote repository. For example, if someone else has made changes to the code and pushed those changes to GitHub, you can use pull to download those changes to your local machine.
+
+Sync: This is a feature in some Git interfaces (like VS Code) that does a pull and then a push, essentially syncing your local repository with the remote repository.
+
+Fetch: This command gets the latest metadata (information about branches, latest commits, etc.) from the remote repository, but it does not download the actual changes to your local machine. This can be useful for seeing what changes have been made remotely without actually applying those changes to your local code.
+
+Commit: This command saves changes you've made to your local Git history. Before you can push changes to a remote repository, you need to commit them locally.
+
+Checkout: This command switches between different branches of your code. If you want to develop a feature or fix a bug without affecting the main code, you can create a new branch with git branch, then checkout to switch to it.
+
+Merge: If you've been working in a separate branch and want to integrate your changes into the main code, you can use merge to do this.
