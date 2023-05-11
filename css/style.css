@@ -141,7 +141,7 @@ footer {
 .logo{
   
     width:100%;
-    height: 30rem;
+    height: 25rem;
     padding-top: 5rem;
     
 
@@ -164,14 +164,14 @@ footer {
 }
 
 .button{
-    display: flex;
-    justify-content: center;
+   
     background-color: #ffffff;
     color: black;
     margin-top: 2rem;
     display: block;
     text-decoration: none;
     font-family: "futura-pt-condensed", sans-serif;
+    font-size: 2rem;
     text-align: center;
     background-color: #ffffff;
     color: #000000;
@@ -257,8 +257,6 @@ img {
     background-color:#ffffff;
 
 }
-
-
 
 
 .hamburger{
