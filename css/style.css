@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4{
     font-family: "futura-pt-bold", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -171,12 +171,12 @@ footer {
     margin-top: 2rem;
     display: block;
     text-decoration: none;
-    font-family: "futura-pt-condensed", sans-serif;
-    font-size: 2rem;
+    font-family: "futura-pt-bold", sans-serif;
     text-align: center;
     background-color: #ffffff;
     color: #000000;
     padding: 1.1rem;
+    text-transform: uppercase;
 
 }
 
@@ -236,6 +236,7 @@ img {
     font-family: "futura-pt-condensed", sans-serif;
     font-size: 2rem;
     letter-spacing: 5px;
+    text-transform: uppercase;
     /* border: #EA3800 1px solid; */
 }
 .nav-link:hover{
