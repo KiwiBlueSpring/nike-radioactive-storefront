@@ -164,7 +164,8 @@ footer {
 }
 
 .button{
-   
+
+    justify-content: center;
     background-color: #ffffff;
     color: black;
     margin-top: 2rem;
